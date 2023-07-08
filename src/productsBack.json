@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "Secador",
+    "description": "Secador electrico",
+    "price": 34,
+    "code": "abc1234",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 2,
+    "title": "Plancha",
+    "description": "Plancha electrica",
+    "price": 34,
+    "code": "aswesd1233",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 4,
+    "title": "LCD",
+    "description": "LCD electrico",
+    "price": 34,
+    "code": "abc231234",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 6,
+    "title": "producto prueba 6",
+    "description": "Este es un producto de prueba 6",
+    "price": 200,
+    "code": "abc123456789",
+    "stock": 25,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 7,
+    "title": "producto prueba 7",
+    "description": "Este es un producto de prueba 7",
+    "price": 200,
+    "code": "abc1234567890",
+    "stock": 25,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 8,
+    "title": "producto prueba 8",
+    "description": "Este es un producto de prueba 8",
+    "price": 200,
+    "code": "abc1233",
+    "stock": 25,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 9,
+    "title": "producto prueba 9",
+    "description": "Este es un producto de prueba 9",
+    "price": 200,
+    "code": "abc12333",
+    "stock": 25,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 10,
+    "title": "producto prueba 10",
+    "description": "Este es un producto de prueba 10",
+    "price": 200,
+    "code": "abc123333",
+    "stock": 25,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 11,
+    "title": "Aspiradora",
+    "description": "Aspiradora electrica",
+    "price": 34,
+    "code": "aswe1233",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 12,
+    "title": "Robot Aspiradora",
+    "description": "Marca Midea M7",
+    "price": 234000,
+    "code": "m7awsd",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 13,
+    "title": "Celular",
+    "description": "Samsung M32",
+    "price": 234000,
+    "code": "m7awsdase34",
+    "stock": 5,
+    "status": true,
+    "category": "Electrodomestico",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 14,
+    "title": "Billetera",
+    "description": "Billetera de cuero",
+    "price": 345,
+    "code": "bille123",
+    "stock": 5,
+    "status": true,
+    "category": "Indumentaria",
+    "thumbnails": "no tiene"
+  }
+]
