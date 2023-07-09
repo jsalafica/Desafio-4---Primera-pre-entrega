@@ -78,13 +78,13 @@
   },
   {
     "id": 10,
-    "title": "producto prueba 10",
-    "description": "Este es un producto de prueba 10",
-    "price": 200,
-    "code": "abc123333",
-    "stock": 25,
+    "title": "Vino",
+    "description": "Vino malbec",
+    "price": 1234,
+    "code": "vino1234",
+    "stock": 5,
     "status": true,
-    "category": "Indumentaria",
+    "category": "Alimentos",
     "thumbnails": "no tiene"
   },
   {

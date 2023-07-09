@@ -7,7 +7,6 @@ export class ProductManager {
   }
   static correlativoId = 0;
 
-  // Agregar product
   async addProduct(
     title,
     description,
@@ -22,7 +21,6 @@ export class ProductManager {
       title == undefined ||
       description == undefined ||
       price == undefined ||
-      thumbnails == undefined ||
       code == undefined ||
       stock == undefined ||
       status == undefined ||
@@ -33,35 +31,31 @@ export class ProductManager {
     try {
       let data = await utils.readFile(this.path);
       this.products = data?.length > 0 ? data : [];
-    } catch (error) {
-      console.log(error);
-    }
 
-    let codeExists = this.products.some((dato) => dato.code == code);
+      let codeExists = this.products.some((dato) => dato.code == code);
 
-    if (codeExists) {
-      throw new Error("El codigo ya existe por favor verifique");
-    } else {
-      ProductManager.correlativoId =
-        this.products[this.products.length - 1].id + 1;
-      const newProduct = {
-        id: ProductManager.correlativoId,
-        title,
-        description,
-        price,
-        code,
-        stock,
-        status,
-        category,
-        thumbnails,
-      };
-      this.products.push(newProduct);
-      try {
+      if (codeExists) {
+        throw new Error("El codigo ya existe por favor verifique");
+      } else {
+        ProductManager.correlativoId =
+          this.products[this.products.length - 1].id + 1;
+        const newProduct = {
+          id: ProductManager.correlativoId,
+          title,
+          description,
+          price,
+          code,
+          stock,
+          status,
+          category,
+          thumbnails,
+        };
+        this.products.push(newProduct);
         await utils.writeFile(this.path, this.products);
         return newProduct;
-      } catch (error) {
-        console.log(error);
       }
+    } catch (error) {
+      console.log(error);
     }
   }
 
@@ -81,7 +75,6 @@ export class ProductManager {
       title == undefined ||
       description == undefined ||
       price == undefined ||
-      thumbnails == undefined ||
       code == undefined ||
       stock == undefined ||
       status == undefined ||
@@ -148,7 +141,11 @@ export class ProductManager {
     try {
       let data = await this.getProducts();
       let product = data.find((dato) => dato.id === id);
-      return product;
+      if (product !== undefined) {
+        return product;
+      } else {
+        return "Producto inexistente.";
+      }
     } catch (error) {
       console.log(error);
     }
