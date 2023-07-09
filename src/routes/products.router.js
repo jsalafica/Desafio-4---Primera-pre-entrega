@@ -5,8 +5,6 @@ import { fileURLToPath } from "url";
 import { ProductManager } from "../ProductManager.js";
 
 const router = Router();
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const products = [];
 const productManager = new ProductManager("products.json");
 
 router
