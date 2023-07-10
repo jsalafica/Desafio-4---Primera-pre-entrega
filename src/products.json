@@ -1,16 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Secador",
-    "description": "Secador electrico",
-    "price": 34,
-    "code": "abc1234",
-    "stock": 5,
-    "status": true,
-    "category": "Electrodomestico",
-    "thumbnails": "no tiene"
-  },
-  {
     "id": 2,
     "title": "Plancha",
     "description": "Plancha electrica",
@@ -141,5 +130,67 @@
     "status": true,
     "category": "Indumentaria",
     "thumbnails": "no tiene"
+  },
+  {
+    "id": 16,
+    "title": "E-reader",
+    "description": "Paperwhite",
+    "price": 341235,
+    "code": "paper1234",
+    "stock": 8,
+    "status": true,
+    "category": "Electronica",
+    "thumbnails": "no tiene"
+  },
+  {
+    "id": 17,
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 341235,
+    "code": "note1234",
+    "stock": 18,
+    "status": true,
+    "category": "Computacion"
+  },
+  {
+    "id": 18,
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 341235,
+    "code": "note12345",
+    "stock": 18,
+    "status": true,
+    "category": "Computacion"
+  },
+  {
+    "id": 19,
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 341235,
+    "code": "note123456",
+    "stock": 18,
+    "status": true,
+    "category": "Computacion"
+  },
+  {
+    "id": 20,
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 341235,
+    "code": "note1234566",
+    "stock": 18,
+    "status": true,
+    "category": "Computacion"
+  },
+  {
+    "id": 21,
+    "title": "Notebook",
+    "description": "Acer",
+    "price": 341235,
+    "code": "note12345366",
+    "stock": 18,
+    "status": true,
+    "category": "Computacion",
+    "thumbnails": ""
   }
 ]

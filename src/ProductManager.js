@@ -48,7 +48,7 @@ export class ProductManager {
           stock,
           status,
           category,
-          thumbnails,
+          thumbnails: !thumbnails ? "" : thumbnails,
         };
         this.products.push(newProduct);
         await utils.writeFile(this.path, this.products);
